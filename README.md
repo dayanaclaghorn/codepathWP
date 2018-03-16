@@ -10,7 +10,7 @@ Time spent: 45 hours spent in total
     - Vulnerability types: XSS CVE-2015-3440
     - Tested in version: WP version 4.2
     - Fixed in version: WordPress 4.2.1
-  - [ ] GIF Walkthrough: ![](vuln1xss..gif)
+  - [ ] GIF Walkthrough: ![](vuln1xssalert1.gif)
   - [ ] Steps to recreate: 
 
 I used the domain name wpdistillery.vm  for my testing. I was logged in as admin in a firefox window, and had wpdistillery.vm/ open in a private window to run the code. 
@@ -121,7 +121,8 @@ On a vm, I ran wpdistillery.vm as the authenticated admin. I went to the link to
     - [Link 1] https://github.com/WordPress/WordPress/commit/263831a72d08556bc2f3a328673d95301a152829 
 
 ## Assets
-Windows 10, Kali Linux, Ubuntu, chrome, firefox, perl, python
+[dos.html]
+[important.doc .html]
 
 ## Resources
 
