@@ -10,7 +10,7 @@ Time spent: 45 hours spent in total
     - Vulnerability types: XSS CVE-2015-3440
     - Tested in version: WP version 4.2
     - Fixed in version: WordPress 4.2.1
-  - [ ] GIF Walkthrough: 
+  - [ ] GIF Walkthrough: ![](vuln1xss..gif)
   - [ ] Steps to recreate: 
 
 I used the domain name wpdistillery.vm  for my testing. I was logged in as admin in a firefox window, and had wpdistillery.vm/ open in a private window to run the code. 
@@ -66,7 +66,7 @@ After a user is convinced to click the link (e.g. phishing), code that was inclu
     - Vulnerability types: XSS
     - Tested in version: 4.2
     - Fixed in version: 4.2.2
-  - [ ] GIF Walkthrough: 
+  - [ ] GIF Walkthrough: ![](cisforcookie.gif)
   - [ ] Steps to recreate: 
 
 I created a link that took “the user” to a page with a clickable link in an html file. In my example, I created an :”important document” that displayed a link. Once the user clicks the link, appended code (to the link) displays an alert containing my cookies for my current wpdistillery.vm session.
@@ -87,7 +87,7 @@ This vulnerability only worked in an out of date version of chrome. Up-to-date c
     - Vulnerability types: CSRF DoS CVE-2017-6819
     - Tested in version: 4.2
     - Fixed in version: 4.2.13
-  - [ ] GIF Walkthrough: 
+  - [ ] GIF Walkthrough: ![](dos.gif)
   - [ ] Steps to recreate: 
 
 I used the domain name wpdistillery.vm  for my testing. I was logged in as admin in firefox.
